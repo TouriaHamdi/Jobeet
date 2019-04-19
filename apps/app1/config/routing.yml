@@ -2,15 +2,26 @@
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
 # default rules
-homepage:
-  url:   /
-  param: { module: default, action: index }
+job:
+  url:     /job
+  class:   sfDoctrineRouteCollection
+  options: { model: JobeetJob}
+
+job_show_user:
+  url:   /job/:company_slug/:location_slug/:id/:position_slug
+  class : sfDoctrineRoute
+  options: {model: JobeetJob, type: object }
+  param: { module: job, action: show }
+  requirements:
+    id: \d+
+
 
 # generic rules
 # please, remove them by adding more specific rules
-default_index:
-  url:   /:module
-  param: { action: index }
 
-default:
-  url:   /:module/:action/*
+#homepage:
+#  url:   /
+#  param: { module: job, action: index }
+
+#default:
+#  url:   /:module/:action/*
