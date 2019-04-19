@@ -1,2 +1,4 @@
 config\doctrine\schema.yml
 config\doctrine\databases.yml
+log/*
+cache/*
