@@ -2,34 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b321061-ce3d-4455-a4d6-997d4c600d75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/app1/config/app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app1/config/app.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/app1/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app1/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/app1/modules/job/actions/actions.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app1/modules/job/actions/actions.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/app1/modules/job/templates/indexSuccess.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app1/modules/job/templates/indexSuccess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/app1/modules/job/templates/showSuccess.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app1/modules/job/templates/showSuccess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/app1/templates/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app1/templates/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_autoload.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/config_autoload.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_config_handlers.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/config_config_handlers.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_core_compile.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/config_core_compile.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_databases.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/config_databases.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_factories.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/config_factories.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_routing.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/config_routing.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_settings.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/config_settings.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_filters.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_filters.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_module.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_module.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_security.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_security.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_view.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_view.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_filters.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_filters.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_module.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_module.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_security.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_security.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_view.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_view.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/ProjectConfiguration.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/ProjectConfiguration.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/fixtures/jobs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/fixtures/jobs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/config_app.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/config_autoload.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/config_config_handlers.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/config_databases.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/config_factories.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/config_routing.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/config_settings.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/modules_job_config_filters.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/modules_job_config_module.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/modules_job_config_security.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/dev/config/modules_job_config_view.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_app.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_autoload.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_config_handlers.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_core_compile.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_databases.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_factories.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_routing.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/config_settings.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_filters.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_module.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_security.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_default_config_view.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_filters.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_module.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_security.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/prod/config/modules_job_config_view.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/test/config/config_app.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/test/config/config_config_handlers.yml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/app1/test/config/config_settings.yml.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetJob.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/doctrine/JobeetJob.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/app1_dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/app1_dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,20 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/app1/config/app.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/double_list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -87,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetJob.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="391">
+              <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -283,12 +280,12 @@
       <workItem from="1554966860628" duration="15144000" />
       <workItem from="1555608318663" duration="294000" />
       <workItem from="1555658542020" duration="374000" />
-      <workItem from="1555661983980" duration="1306000" />
+      <workItem from="1555661983980" duration="5232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107609000" />
+    <option name="totallyTimeSpent" value="111535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -550,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetJob.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/app1/modules/job/templates/newSuccess.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -586,17 +576,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/app1/config/app.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/double_list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetJob.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app1/config/app.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
